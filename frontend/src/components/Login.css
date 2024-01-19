@@ -1,0 +1,40 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.Login h1 {
+    margin-bottom: 20px;
+}
+
+.Login input {
+    padding: 10px;
+    background-color: rgba(73, 56, 230, 0.158);
+    outline: none;
+    border-style: none;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.Login button {
+    padding: 10px;
+
+    width: auto;
+    border-radius: 100px;
+    font-size: 20px;
+    background-color: #ffd900;
+    border-style: none;
+}
+
+.Login button:hover {
+    background-color: #ffbb00;
+    cursor: pointer;
+}
+
+.Login #loginError {
+    color: red;
+    margin-top: 10px;
+}

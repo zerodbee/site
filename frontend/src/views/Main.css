@@ -1,0 +1,37 @@
+.Main {
+    padding-top: 30px;
+}
+
+.Main  {
+
+
+
+    
+    font-size: 16pt;
+}
+
+.Main .addProduct:hover {
+    cursor: pointer;
+    background-color: #ffbb00;
+}
+
+.Main .mainGrid {
+    
+    width: 100%;
+    padding: 30px;
+    row-gap: 30px;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.addProduct {
+    
+    border-radius: 100px;
+    background-color: #ffd900;
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    
+}
