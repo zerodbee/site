@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Main.css';
 import Product from '../components/Product';
-import image from '../img/image.png';
+import image from '../img/image.jpg';
 
 function Main({ setBasket, setBasketPrice, setBasketQty, basket, setMessage, setModalBox, token }) {
 
