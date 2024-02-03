@@ -35,7 +35,12 @@ function OrderBox({ setModalBox, setMessage, setBasket, setBasketQty, setBasketP
             <button id='send' onClick={() => order()}>Оформить заказ</button>
             <p id='orderError'></p>
         </div>
+        
     );
 }
+
+
+
+
 
 export default OrderBox;

@@ -47,7 +47,7 @@ function Product({ id, image, title, price, setBasket, setBasketPrice, setBasket
   return (
     <div className="Product">
       <img src="https://ae04.alicdn.com/kf/S3f9d67bfc16c4383a566b0ec78714155S.jpg" alt='Изображение товара' />
-      <h1>{product.title}</h1>
+      <h1>{product.title}</h1><br/>
       <p>{product.price} рублей</p>
       <AddToBasketButton />
     </div>
